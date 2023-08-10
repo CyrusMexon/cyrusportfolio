@@ -1,0 +1,232 @@
+body{
+    background-color: #FEFBF6;
+}
+
+.intro {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    
+  animation: gradient-animation 18s ease infinite;
+
+}
+
+#title {
+    font-family: 'Merriweather', serif;
+    font-size: 78px;
+}
+
+.projects, .skills{
+    text-align: center;
+}
+
+.projects{
+  padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.lead {
+    font-weight: 600;
+}
+
+.myImg {
+    border-radius: 200px;
+    object-fit: contain;
+}
+
+.fw-bold{
+    color: #0d324d;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.ProfileItem_titleLink__qXU7l{
+    font-size: 1.25rem;
+}
+
+hr {
+    border: dotted #4682A9 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.flex-container{
+   display: flex;
+
+}
+
+.ProfileItem_experience__YXtvH{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    margin: 36px 0;
+}
+
+.ProfileItem_duration__utkpJ{
+    color: var(--grey3);
+    margin-right: 36px;
+    white-space: nowrap;
+    position: relative;
+    text-align: right;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+}
+
+.ProfileItem_experienceContent__0E9pa{
+    flex: 1 1;
+    word-break: break-word;
+}
+
+.ProfileItem_title__rsz3J {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+ProfileItem_title__rsz3J
+
+.ProfileItem_description__9_b0E {
+    color: var(--grey2);
+}
+
+.ProfileItem_description__9_b0E>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    max-width: 410px;
+}
+
+.ProfileItem_images__Z9kAd {
+    margin-top: 12px;
+    float: left;
+}
+
+element.style {
+    height: 90px;
+}
+.ProfileItemGallery_overflowPositioner__Uh_iF, .ProfileItemGallery_profileItemGallery__hIfzo {
+    display: flex;
+    align-items: center;
+    float: left;
+    column-gap: 8px;
+}
+
+element.style {
+    width: 146.908px;
+}
+.ProfileItemGallery_image__fqh4f {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    border-style: solid;
+    position: relative;
+    margin-right: 2em;
+    cursor: pointer;
+    flex-shrink: 0;
+    transform: translateZ(0);
+}
+
+.ProfileItemGallery_image__fqh4f img, .ProfileItemGallery_image__fqh4f video {
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.left_div{
+    float: left;
+}
+
+.right_div{
+    float: right;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+  }
+  .language-img{
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+  }
+  .programming-img{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .bottom-container{
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    
+  animation: gradient-animation 18s ease infinite;
+    padding: 50px 0 20px;
+
+    text-align: center;
+  }
+
+  .contact-me{
+     text-align: center;
+     margin-bottom: 100px;
+  }
+
+  .touch{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+ .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #0d324d;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #416682;
+    text-decoration: none;
+  }
+
+  .bottom-container>a{
+    color: #6d6e72;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.bottom-container>a:hover{
+    color: #EAF6F6;
+  }
+
+  .copyright {
+    color: #EAF6F6;
+    font-size: 0.80rem;
+    margin-top: 25px;
+    padding: 15px 0;
+}
